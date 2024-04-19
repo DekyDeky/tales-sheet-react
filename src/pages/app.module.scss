@@ -1,0 +1,19 @@
+.main {
+  font-family: var(--generalFont);
+
+  .sheet {
+    display: flex;
+
+    margin: 25px;
+
+      .allInfo {
+        width: 100%;
+
+        .itemsHideout {
+          display: flex;
+          align-items: flex-start;
+        }
+      }
+  }
+
+}

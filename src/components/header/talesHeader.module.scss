@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+
+    background-color: var(--bgHeaderColor);
+    padding-left: 15px;
+
+    .headerLogo {
+        width: 100px;
+        margin: 10px;
+    }
+
+    .headerTexts {
+        font-family: var(--headerFont);
+        color: var(--fontHeaderColor);
+    
+        text-align: center;        
+    }
+    
+    .headerTextsTitle {
+        font-size: 45px;
+    }
+
+    .headerTextsSubtitle {
+        font-size: 25px;
+    }
+}

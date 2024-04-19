@@ -1,0 +1,54 @@
+.hideout {
+
+    width: 100%;
+    box-shadow: var(--generalInfo);
+
+    .hideoutFieldset {
+
+        width: 100%;
+
+        .hideoutTitle {
+            
+            height: 46px;
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+
+
+            p {
+                color: var(--titleFontColor);
+                font-size: var(--ACSFontSize);
+                margin-left: 10px;
+            }
+        }
+
+        .hideoutDivTextArea {
+
+            border: 1px solid var(--generalBorderTableColor);
+
+            .hideoutTextArea {
+                height: 260px;
+                width: 100%;
+    
+                resize: none;
+    
+                font-size: var(--generalInfoFontSize);
+                padding: 0;
+
+                border: none;
+
+                background-color: transparent;
+
+                margin: 10px;
+
+            }
+    
+            .hideoutTextArea:focus {
+                outline: none;
+            }
+        }
+
+
+    }
+}

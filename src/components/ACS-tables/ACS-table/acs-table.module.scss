@@ -1,0 +1,47 @@
+.ACSValues, .ACSTitle {
+    padding: 10px 12px;
+    width: 100%;
+
+    border-bottom: 1px solid var(--generalBorderTableColor);
+    border-left: 1px solid var(--generalBorderTableColor);
+    border-right: 1px solid var(--generalBorderTableColor);
+
+    font-size: var(--ACSFontSize);
+}
+
+.ACSform {
+    width: 320px; 
+
+    margin-bottom: 25px;
+
+    box-shadow: 35px 10px var(--generalShadownTableColor);
+
+    .ACSfiledset {
+
+        .ACSTitle {
+            background-color: var(--generalTableTitleColor);
+            color: var(--titleFontColor);
+        }
+
+    }
+
+    .ACSValues {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .ACSInput {
+            width: 50px;
+            height: 25px;
+        }
+
+        .ACSInput[type='number'] {
+            box-shadow: 2px 2px var(--generalShadownTableColor);
+        }
+    }
+}
+
+
+
+

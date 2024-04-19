@@ -1,0 +1,98 @@
+.generalLabelInput {
+
+    border-bottom: 1px solid var(--generalBorderTableColor);
+    height: 46px;
+    display: flex;
+    align-items:flex-start;
+
+    .generalLabel {
+
+        margin: 10px;
+        font-size: var(--generalInfoFontSize);
+
+    }
+    
+}
+
+.theSpecialOne {
+    justify-content: space-between;
+
+    .generalCheckboxes {
+        align-self:center;
+        margin-right: 10px;
+
+    }
+}
+
+.generalCheckbox {
+    width: 30px;
+    height: 30px;
+    align-self:center;
+
+    outline: none;
+}
+
+.generalInfoForm {
+
+    box-shadow: var(--generalInfo);
+
+    width: 100%;
+
+    border-top: 1px solid var(--generalBorderTableColor);
+    border-left: 1px solid var(--generalBorderTableColor);
+    border-right: 1px solid var(--generalBorderTableColor);
+
+
+    .generalInfo {
+
+        width: 100%;
+
+        .initialInfo {
+            width: 100%;
+            display: flex;
+
+            .initialInfoLeft, .initialInfoRight{
+                width: 100%;
+
+
+            }
+
+            .initialInfoLeft {
+                border-right: 1px solid var(--generalBorderTableColor);
+            }
+        }
+
+        .endInfo {
+
+            .generalLabelInput {
+
+                .generalLabel {
+                    text-wrap: nowrap;
+                }
+
+                .generalCheckbox {
+                    margin-right: 10px;
+                }
+            }
+
+            .pride {
+
+                .generalLabelInput {
+                    width: 100%;
+
+    
+                    .generalInput {
+                        width: 100%;
+                    }
+                    
+                }
+
+            }
+        }
+
+        .pride {
+            display: flex;
+        }
+    }
+}
+

@@ -1,0 +1,95 @@
+.itemsTitles, .iconicItem, .inputsItems{
+
+    border-bottom: 1px solid var(--generalBorderTableColor);
+    border-left: 1px solid var(--generalBorderTableColor);
+    border-right: 1px solid var(--generalBorderTableColor);
+
+}
+
+.items {
+
+    width: 100%;
+
+    margin-right: 25px;
+
+    box-shadow: var(--generalInfo);
+
+    .itemsFieldset {
+
+        .itemsTitles {
+
+            width: 100%;
+            height: 46px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+
+
+            .itemsTitle {
+
+                color: var(--titleFontColor);
+                font-size: var(--ACSFontSize);
+
+                margin: 0 10px;
+
+            }
+
+            .itemBonus {
+
+                color: var(--titleFontColor);
+                font-size: var(--generalInfoFontSize);
+
+                margin: 0 10px;
+            }
+        }
+
+        .iconicItem {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+            height: 46px;
+
+            .iconicItemTitle {
+                text-wrap: nowrap;
+                margin: 10px;
+
+                align-self: flex-start;
+            }
+
+            .iconicItemBonus {
+                margin: 0 10px;
+            }
+
+        }
+
+        .inputsItems {
+
+            width: 100%;
+            height: 46px;
+
+            display: flex;
+            align-items: center;
+
+            .itemInput {
+                margin: 0 10px;
+            }
+
+            .inputBonus {
+                height: 58%;
+                width: 50px;
+                margin-right: 10px;
+
+                box-shadow: 2px 2px var(--generalShadownTableColor);
+            }
+
+        }
+
+        
+    }
+}

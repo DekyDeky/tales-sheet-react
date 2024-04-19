@@ -1,0 +1,50 @@
+.ACSexp {
+
+    width: 346px; 
+
+    border-bottom: 1px solid var(--generalBorderTableColor);
+    border-left: 1px solid var(--generalBorderTableColor);
+    border-right: 1px solid var(--generalBorderTableColor);
+
+    box-shadow: 7px 7px var(--generalShadownTableColor);
+
+    .ACSEXPFieldSet {
+
+        width: 100%;   
+
+        .ExpTitle {
+
+            width: 100%;   
+            height: 41px;
+
+            display: flex;
+            align-items: center;
+
+            .ACSEXPTitle {
+                color: var(--titleFontColor);
+                font-size: var(--ACSFontSize);
+
+                margin-left: 10px;
+            }
+        }
+
+        .ExpCheckboxes {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 41px;
+
+            .ExpCheckbox {
+
+                width: 25px;
+                height: 25px;
+                align-self:center;
+            
+                outline: none;
+
+            }
+        }
+    }
+}

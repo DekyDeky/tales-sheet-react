@@ -1,0 +1,46 @@
+.relasionships {
+
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    box-shadow: var(--generalInfo);
+
+    .relasionshipsFieldset {
+        
+
+        .relasionshipsTitle {
+
+            width: 100%;
+            height: 46px;
+
+            color: var(--titleFontColor);
+            font-size: var(--ACSFontSize);
+
+            display: flex;
+            align-items: center;
+
+            .title {
+                margin-left: 10px;
+            }
+        }
+
+        .relations {
+
+            height: 46px;
+            display: flex;
+
+            border-bottom: 1px solid var(--generalBorderTableColor);
+            border-left: 1px solid var(--generalBorderTableColor);
+            border-right: 1px solid var(--generalBorderTableColor);
+            
+            .relationLabel {
+
+                margin: 10px;
+                text-wrap: nowrap;
+            }
+
+        }
+
+    }
+}
