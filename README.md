@@ -1,3 +1,8 @@
+# Tales From The Loop - Web Sheet
+This is a simple project that i'm making in React and Typescript of the TTRPG Tales From The loop. It's a work in progress!
+
+All rights reserved to Simon Stålenhag and Free League.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
