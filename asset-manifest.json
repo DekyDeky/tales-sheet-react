@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tales-sheet-react/static/css/main.920b6298.css",
+    "main.js": "/tales-sheet-react/static/js/main.e293046d.js",
+    "index.html": "/tales-sheet-react/index.html",
+    "main.920b6298.css.map": "/tales-sheet-react/static/css/main.920b6298.css.map",
+    "main.e293046d.js.map": "/tales-sheet-react/static/js/main.e293046d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920b6298.css",
+    "static/js/main.e293046d.js"
+  ]
+}
